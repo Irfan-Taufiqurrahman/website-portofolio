@@ -606,6 +606,7 @@ img {
   font-size: var(--h3-font-size);
   font-weight: var(--font-medium);
   margin-bottom: var(--margin-bottom-0-1-5);
+  text-align: center;
 }
 
 .services-box-close {
@@ -1000,7 +1001,7 @@ img {
   /* Gambar */
   .portfolio-img {
     max-width: 100%;
-    maxheighth:4000%;
+    maxheighth: 4000%;
     border-radius: 10px;
   }
 
@@ -1009,6 +1010,7 @@ img {
     font-size: 1.2rem;
     font-weight: bold;
     margin-bottom: 5px;
+    text-align: center; /* Menambahkan untuk memposisikan teks di tengah */
   }
 
   /* Deskripsi */
@@ -1302,14 +1304,13 @@ img {
   }
 }
 
-
 /*******************************/
 /********* Footer CSS **********/
 /*******************************/
 .footer {
   position: relative;
   margin-top: 45px;
-  background: #ef233c;
+  background: #0e2685;
 }
 
 .footer .container-fluid {
@@ -1427,4 +1428,10 @@ img {
     line-height: 16px;
     padding: 0 5px;
   }
+}
+
+
+.service-img {
+  width: 100%;
+  text-align: start;
 }

@@ -1,865 +1,517 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
-    <link rel="stylesheet" href="Libraries/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="Css/style.css" />
-  </head>
-  <body>
-    <!-- header  -->
-    <header class="header" id="header">
-      <nav class="nav container">
-        <a href="#" class="nav-logo">I'm Irfan</a>
 
-        <div class="nav-menu" id="nav-menu">
-          <ul class="nav-list grid">
-            <li class="nav-item">
-              <a href="#home" class="nav-link"
-                ><i class="fa-solid fa-house nav-icon"></i> Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#about" class="nav-link"
-                ><i class="fa-solid fa-user nav-icon"></i> About</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#skills" class="nav-link"
-                ><i class="fa-solid fa-file nav-icon"></i> Skills</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#projects" class="nav-link"
-                ><i class="fa-solid fa-image nav-icon"></i> Projects</a
-              >
-            </li>
-            <li class="nav-item">
-              <a href="#contact" class="nav-link"
-                ><i class="fa-solid fa-message nav-icon"></i> Contact</a
-              >
-            </li>
-          </ul>
-          <i class="fa-solid fa-xmark nav-close" id="nav-close"></i>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Website</title>
+  <link rel="stylesheet" href="Libraries/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="Css/style.css" />
+</head>
+
+<body>
+  <!-- header  -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav-logo">Irfan</a>
+
+      <div class="nav-menu" id="nav-menu">
+        <ul class="nav-list grid">
+          <li class="nav-item">
+            <a href="#home" class="nav-link"><i class="fa-solid fa-house nav-icon"></i></a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link"><i class="fa-solid fa-user nav-icon"></i> Mich</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a href="#skills" class="nav-link"><i class="fa-solid fa-file nav-icon"></i> Skills</a>
+          </li> -->
+          <li class="nav-item">
+            <a href="#projects" class="nav-link"><i class="fa-solid fa-image nav-icon"></i> Projekte</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link"><i class="fa-solid fa-message nav-icon"></i> Kontakt</a>
+          </li>
+        </ul>
+        <i class="fa-solid fa-xmark nav-close" id="nav-close"></i>
+      </div>
+
+      <div class="nav-btns">
+        <!-- theme btn  -->
+        <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
+
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="fa-solid fa-bars"></i>
         </div>
+      </div>
+    </nav>
+  </header>
 
-        <div class="nav-btns">
-          <!-- theme btn  -->
-          <i class="fa-regular fa-moon change-theme" id="theme-button"></i>
-
-          <div class="nav-toggle" id="nav-toggle">
-            <i class="fa-solid fa-bars"></i>
+  <main class="main">
+    <!-- home -->
+    <section class="home section" id="home">
+      <div class="home-container container grid">
+        <div class="home-content grid">
+          <div class="home-social">
+            <a href="https://www.linkedin.com/in/irfan-taufiqurrahman/" target="_blank" class="home-social-icon">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <!-- <a href="https://www.instagram.com/" target="_blank" class="home-social-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </a> -->
+            <a href="https://github.com/Irfan-Taufiqurrahman" target="_blank" class="home-social-icon">
+              <i class="fa-brands fa-github"></i>
+            </a>
           </div>
-        </div>
-      </nav>
-    </header>
 
-    <main class="main">
-      <!-- home -->
-      <section class="home section" id="home">
-        <div class="home-container container grid">
-          <div class="home-content grid">
-            <div class="home-social">
-              <a
-                href="https://www.linkedin.com/in/harisahmad59/"
-                target="_blank"
-                class="home-social-icon"
-              >
-                <i class="fa-brands fa-linkedin-in"></i>
-              </a>
-              <a
-                href="https://www.instagram.com/codehype_/"
-                target="_blank"
-                class="home-social-icon"
-              >
-                <i class="fa-brands fa-instagram"></i>
-              </a>
-              <a
-                href="https://github.com/harisahmad59"
-                target="_blank"
-                class="home-social-icon"
-              >
-                <i class="fa-brands fa-github"></i>
-              </a>
-            </div>
-
-            <div class="home-img">
-              <svg
-                class="home-blob"
-                viewBox="0 0 200 187"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-              >
-                <mask id="mask0" mask-type="alpha">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+          <div class="home-img">
+            <svg class="home-blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <mask id="mask0" mask-type="alpha">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
         130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
         97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                </mask>
-                <g mask="url(#mask0)">
-                  <path
-                    d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+              </mask>
+              <g mask="url(#mask0)">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
         165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
         129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-                  />
-                  <image
-                    class="home-blob-img"
-                    x="-15"
-                    y="-5"
-                    href="Assets/Icons/logo1.png"
-                  />
-                </g>
-              </svg>
-            </div>
-
-            <div class="home-data">
-              <h1 class="home-title">Hi, I am Irfan</h1>
-              <h3 class="home-subtitle">Frontend Developer</h3>
-              <p class="home-description">
-                Passionate frontend developer specializing in pixel-perfect web
-                design.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- about -->
-      <section class="about section" id="about">
-        <h2 class="section-title">About Me</h2>
-        <span class="section-subtitle">My Introduction</span>
-
-        <div class="about-container container grid">
-          <img src="Assets/Icons/aboutimg.png" alt="" class="about-img" />
-
-          <div class="about-data">
-            <p class="about-description">
-              An accomplished Frontend Developer with a passion for creating
-              seamless user experiences. With a solid foundation in HTML, CSS,
-              and JavaScript, I specialize in crafting visually captivating and
-              intuitively navigable websites.
-            </p>
-
-            <div class="about-buttons">
-              <a
-                download=""
-                href="/Assets/Resume.pdf"
-                class="button button-flex"
-              >
-                Download Resume<i
-                  class="fa-solid fa-file-arrow-down button-icon"
-                ></i>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- skills -->
-      <section class="skills section" id="skills">
-        <h2 class="section-title">Skills</h2>
-        <span class="section-subtitle">My Technical Skills</span>
-        <div class="skills-content container">
-          <div class="skills-name">JavaScript</div>
-          <div class="skills-name">React JS</div>
-          <div class="skills-name">Tailwind CSS</div>
-          <div class="skills-name">Bootstrap</div>
-          <div class="skills-name">CSS</div>
-          <div class="skills-name">SASS</div>
-          <div class="skills-name">Figma</div>
-          <div class="skills-name">Node JS</div>
-          <div class="skills-name">Express JS</div>
-          <div class="skills-name">MongoDB</div>
-          <div class="skills-name">Photoshop</div>
-          <div class="skills-name">Python</div>
-        </div>
-      </section>
-
-      <!-- qualification -->
-      <section class="qualification section">
-        <h2 class="section-title">Qualification</h2>
-        <span class="section-subtitle">My journey</span>
-
-        <div class="qualification-container container">
-          <div class="qualification-tabs">
-            <div
-              class="qualification-button button-flex qualification-active"
-              data-target="#education"
-            >
-              <i class="fa-solid fa-graduation-cap qualification-icon"></i>
-              Education
-            </div>
-            <div class="qualification-button button-flex" data-target="#work">
-              <i class="fa-solid fa-briefcase qualification-icon"></i>
-              Work
-            </div>
+        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                <image class="home-blob-img" x="-15" y="-35" href="Assets/Icons/1.jpg" />
+              </g>
+            </svg>
           </div>
 
-          <div class="qualification-section">
-            <div
-              class="qualification-content qualification-active"
-              data-content
-              id="education"
-            >
-              <!-- qualifi 1 -->
-              <div class="qualification-data">
-                <div>
-                  <h3 class="qualification-title">
-                    Computer Science Engineering
-                  </h3>
-                  <span class="qualification-subtitle">GCET Kashmir</span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    2022 - 2026
-                  </div>
-                </div>
-                <div>
-                  <span class="qualification-round"></span>
-                  <span class="qualification-line"></span>
-                </div>
-              </div>
-
-              <!-- qualifi 2 -->
-
-              <div class="qualification-data">
-                <div></div>
-
-                <div>
-                  <span class="qualification-round"></span>
-                  <span class="qualification-line"></span>
-                </div>
-
-                <div>
-                  <h3 class="qualification-title">
-                    Full Stack Web Development
-                  </h3>
-                  <span class="qualification-subtitle">Udemy</span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    2021 - 2022
-                  </div>
-                </div>
-              </div>
-
-              <!-- qualifi 3 -->
-
-              <div class="qualification-data">
-                <div>
-                  <h3 class="qualification-title">Frontend Development</h3>
-                  <span class="qualification-subtitle">Coursera</span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    2021 - 2022
-                  </div>
-                </div>
-                <div>
-                  <span class="qualification-round"></span>
-                  <span class="qualification-line"></span>
-                </div>
-              </div>
-
-              <!-- qualifi 4 -->
-
-              <div class="qualification-data">
-                <div></div>
-                <div>
-                  <span class="qualification-round"></span>
-                  <!-- <span class="qualification-line"></span> -->
-                </div>
-                <div>
-                  <h3 class="qualification-title">Digital Marketing</h3>
-                  <span class="qualification-subtitle">Google</span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    2019 - 2020
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- qualific content 2  -->
-            <div class="qualification-content" data-content id="work">
-              <!-- qualifi 1 -->
-              <div class="qualification-data">
-                <div>
-                  <h3 class="qualification-title">Full Stack Developer</h3>
-                  <span class="qualification-subtitle">Fiverr</span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    2022 - Present
-                  </div>
-                </div>
-                <div>
-                  <span class="qualification-round"></span>
-                  <span class="qualification-line"></span>
-                </div>
-              </div>
-
-              <!-- qualifi 2 -->
-
-              <div class="qualification-data">
-                <div></div>
-
-                <div>
-                  <span class="qualification-round"></span>
-                  <span class="qualification-line"></span>
-                </div>
-
-                <div>
-                  <h3 class="qualification-title">Ui/Ux Designer</h3>
-                  <span class="qualification-subtitle">Freelancer</span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    2022 - Present
-                  </div>
-                </div>
-              </div>
-
-              <!-- qualifi 3 -->
-
-              <div class="qualification-data">
-                <div>
-                  <h3 class="qualification-title">Content Creator</h3>
-                  <span class="qualification-subtitle">YouTube</span>
-                  <div class="qualification-date">
-                    <i class="fa-solid fa-calendar-days"></i>
-                    2019 - Present
-                  </div>
-                </div>
-                <div>
-                  <span class="qualification-round"></span>
-                  <!-- <span class="qualification-line"></span> -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- project's -->
-      <section class="services section" id="projects">
-        <h2 class="section-title">Project's</h2>
-        <span class="section-subtitle">My Recent Project's</span>
-
-        <div class="services-container container grid">
-          <!-- service 1  -->
-          <div class="services-content">
-            <div>
-              <i class="fa-solid fa-code services-icon"></i>
-
-              <h3 class="services-title">
-                Frontend <br />
-                Developer
-              </h3>
-            </div>
-            <span
-              class="button button-flex button-small button-link services-button"
-            >
-              View more
-              <i class="fa-solid fa-arrow-right button-icon"></i>
-            </span>
-
-            <div class="services-box">
-              <div class="services-box-content">
-                <h4 class="services-box-title">
-                  Frontend <br />
-                  Developer
-                </h4>
-                <i class="fa-solid fa-xmark services-box-close"></i>
-                <ul class="services-box-services grid">
-                  <div class="swiper-wrapper">
-                    <!-- project1 -->
-                    <div class="portfolio-content grid swiper-slide">
-                      <img
-                        src="Assets/project1.svg"
-                        alt=""
-                        class="portfolio-img"
-                      />
-                      <div class="portfolio-data">
-                        <h3 class="portfolio-title">1.Business Websites</h3>
-                        <p class="portfolio-description">
-                          Dynamic business sites that reflect your brand and
-                          engage customers effectively.
-                        </p>
-                        <a
-                          href="https://github.com/harisahmad59/CodeHype-Responsive-Website"
-                          target="_blank"
-                          class="button button-flex button-small portfolio-button"
-                          >Project Link
-                          <i class="fa-solid fa-arrow-right button-icon"></i
-                        ></a>
-                      </div>
-                    </div>
-                    <!-- project 2 -->
-                    <div class="portfolio-content grid swiper-slide">
-                      <img
-                        src="Assets/project1.svg"
-                        alt=""
-                        class="portfolio-img"
-                      />
-                      <div class="portfolio-data">
-                        <h3 class="portfolio-title">2.Business Websites</h3>
-                        <p class="portfolio-description">
-                          Dynamic business sites that reflect your brand and
-                          engage customers effectively.
-                        </p>
-                        <a
-                          href="https://github.com/harisahmad59/CodeHype-Responsive-Website"
-                          target="_blank"
-                          class="button button-flex button-small portfolio-button"
-                          >Project Link
-                          <i class="fa-solid fa-arrow-right button-icon"></i
-                        ></a>
-                      </div>
-                    </div>
-                    <!-- project 3 -->
-                    <div class="portfolio-content grid swiper-slide">
-                      <img
-                        src="Assets/project1.svg"
-                        alt=""
-                        class="portfolio-img"
-                      />
-                      <div class="portfolio-data">
-                        <h3 class="portfolio-title">3.Business Websites</h3>
-                        <p class="portfolio-description">
-                          Dynamic business sites that reflect your brand and
-                          engage customers effectively.
-                        </p>
-                        <a
-                          href="https://github.com/harisahmad59/CodeHype-Responsive-Website"
-                          target="_blank"
-                          class="button button-flex button-small portfolio-button"
-                          >Project Link
-                          <i class="fa-solid fa-arrow-right button-icon"></i
-                        ></a>
-                      </div>
-                    </div>
-                    <!-- project 4 -->
-                    <div class="portfolio-content grid swiper-slide">
-                      <img
-                        src="Assets/project1.svg"
-                        alt=""
-                        class="portfolio-img"
-                      />
-                      <div class="portfolio-data">
-                        <h3 class="portfolio-title">4.Business Websites</h3>
-                        <p class="portfolio-description">
-                          Dynamic business sites that reflect your brand and
-                          engage customers effectively.
-                        </p>
-                        <a
-                          href="https://github.com/harisahmad59/CodeHype-Responsive-Website"
-                          target="_blank"
-                          class="button button-flex button-small portfolio-button"
-                          >Project Link
-                          <i class="fa-solid fa-arrow-right button-icon"></i
-                        ></a>
-                      </div>
-                    </div>
-                    <!-- project 5 -->
-                    <div class="portfolio-content grid swiper-slide">
-                      <img
-                        src="Assets/project1.svg"
-                        alt=""
-                        class="portfolio-img"
-                      />
-                      <div class="portfolio-data">
-                        <h3 class="portfolio-title">5.Business Websites</h3>
-                        <p class="portfolio-description">
-                          Dynamic business sites that reflect your brand and
-                          engage customers effectively.
-                        </p>
-                        <a
-                          href="https://github.com/harisahmad59/CodeHype-Responsive-Website"
-                          target="_blank"
-                          class="button button-flex button-small portfolio-button"
-                          >Project Link
-                          <i class="fa-solid fa-arrow-right button-icon"></i
-                        ></a>
-                      </div>
-                    </div>
-                    <!-- tambahan project disini 2 , 3 , 4 , dst... -->
-                  </div>
-                  <div class="swiper-angles">
-                    <div class="swiper-button-next">
-                      <i class="fa-solid fa-angle-right swiper-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                      <i class="fa-solid fa-angle-left swiper-icon"></i>
-                    </div>
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- service 2  -->
-          <div class="services-content">
-            <div>
-              <i class="fa-brands fa-uikit services-icon"></i>
-              <h3 class="services-title">
-                Ui/Ux <br />
-                Designer
-              </h3>
-            </div>
-            <span
-              class="button button-flex button-small button-link services-button"
-            >
-              View more
-              <i class="fa-solid fa-arrow-right button-icon"></i>
-            </span>
-
-            <div class="services-box">
-              <div class="services-box-content">
-                <h4 class="services-box-title">
-                  Ui/Ux <br />
-                  Designer
-                </h4>
-                <i class="fa-solid fa-xmark services-box-close"></i>
-
-                <ul class="services-box-services grid">
-                  <div class="swiper-wrapper">
-                    <!-- project1 -->
-                    <div class="portfolio-content grid swiper-slide">
-                      <img
-                        src="Assets/project1.svg"
-                        alt=""
-                        class="portfolio-img"
-                      />
-                      <div class="portfolio-data">
-                        <h3 class="portfolio-title">1.Business Websites</h3>
-                        <p class="portfolio-description">
-                          Dynamic business sites that reflect your brand and
-                          engage customers effectively.
-                        </p>
-                        <a
-                          href="https://github.com/harisahmad59/CodeHype-Responsive-Website"
-                          target="_blank"
-                          class="button button-flex button-small portfolio-button"
-                          >Project Link
-                          <i class="fa-solid fa-arrow-right button-icon"></i
-                        ></a>
-                      </div>
-                    </div>
-                    <!-- project2 -->
-                    <div class="portfolio-content grid swiper-slide">
-                      <img
-                        src="Assets/project1.svg"
-                        alt=""
-                        class="portfolio-img"
-                      />
-                      <div class="portfolio-data">
-                        <h3 class="portfolio-title">2.Business Websites</h3>
-                        <p class="portfolio-description">
-                          Dynamic business sites that reflect your brand and
-                          engage customers effectively.
-                        </p>
-                        <a
-                          href="https://github.com/harisahmad59/CodeHype-Responsive-Website"
-                          target="_blank"
-                          class="button button-flex button-small portfolio-button"
-                          >Project Link
-                          <i class="fa-solid fa-arrow-right button-icon"></i
-                        ></a>
-                      </div>
-                    </div>
-                    <!-- project 3 -->
-                    <div class="portfolio-content grid swiper-slide">
-                      <img
-                        src="Assets/project1.svg"
-                        alt=""
-                        class="portfolio-img"
-                      />
-                      <div class="portfolio-data">
-                        <h3 class="portfolio-title">3.Business Websites</h3>
-                        <p class="portfolio-description">
-                          Dynamic business sites that reflect your brand and
-                          engage customers effectively.
-                        </p>
-                        <a
-                          href="https://github.com/harisahmad59/CodeHype-Responsive-Website"
-                          target="_blank"
-                          class="button button-flex button-small portfolio-button"
-                          >Project Link
-                          <i class="fa-solid fa-arrow-right button-icon"></i
-                        ></a>
-                      </div>
-                    </div>
-                    <!-- tambahan project disini 2 , 3 , 4 , dst... -->
-                  </div>
-                  <div class="swiper-angles">
-                    <div class="swiper-button-next">
-                      <i class="fa-solid fa-angle-right swiper-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                      <i class="fa-solid fa-angle-left swiper-icon"></i>
-                    </div>
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- service 3  -->
-          <div class="services-content">
-            <div>
-              <i class="fa-solid fa-hashtag services-icon"></i>
-              <h3 class="services-title">
-                Content<br />
-                Creation
-              </h3>
-            </div>
-            <span
-              class="button button-flex button-small button-link services-button"
-            >
-              View more
-              <i class="fa-solid fa-arrow-right button-icon"></i>
-            </span>
-
-            <div class="services-box">
-              <div class="services-box-content">
-                <h4 class="services-box-title">
-                  Content <br />
-                  Creation
-                </h4>
-                <i class="fa-solid fa-xmark services-box-close"></i>
-                <ul class="services-box-services grid">
-                  <div class="swiper-wrapper">
-                    <!-- project1 -->
-                    <div class="portfolio-content grid swiper-slide">
-                      <img
-                        src="Assets/project1.svg"
-                        alt=""
-                        class="portfolio-img"
-                      />
-                      <div class="portfolio-data">
-                        <h3 class="portfolio-title">1.Business Websites</h3>
-                        <p class="portfolio-description">
-                          Dynamic business sites that reflect your brand and
-                          engage customers effectively.
-                        </p>
-                        <a
-                          href="https://github.com/harisahmad59/CodeHype-Responsive-Website"
-                          target="_blank"
-                          class="button button-flex button-small portfolio-button"
-                          >Project Link
-                          <i class="fa-solid fa-arrow-right button-icon"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-angles">
-                    <div class="swiper-button-next">
-                      <i class="fa-solid fa-angle-right swiper-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                      <i class="fa-solid fa-angle-left swiper-icon"></i>
-                    </div>
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- service 3  -->
-          <div class="services-content">
-            <div>
-              <i class="fa-solid fa-hashtag services-icon"></i>
-              <h3 class="services-title">
-                Content<br />
-                Creation
-              </h3>
-            </div>
-            <span
-              class="button button-flex button-small button-link services-button"
-            >
-              View more
-              <i class="fa-solid fa-arrow-right button-icon"></i>
-            </span>
-
-            <div class="services-box">
-              <div class="services-box-content">
-                <h4 class="services-box-title">
-                  Content <br />
-                  Creation
-                </h4>
-                <i class="fa-solid fa-xmark services-box-close"></i>
-                <ul class="services-box-services grid">
-                  <div class="swiper-wrapper">
-                    <!-- project1 -->
-                    <div class="portfolio-content grid swiper-slide">
-                      <img
-                        src="Assets/project1.svg"
-                        alt=""
-                        class="portfolio-img"
-                      />
-                      <div class="portfolio-data">
-                        <h3 class="portfolio-title">1.Business Websites</h3>
-                        <p class="portfolio-description">
-                          Dynamic business sites that reflect your brand and
-                          engage customers effectively.
-                        </p>
-                        <a
-                          href="https://github.com/harisahmad59/CodeHype-Responsive-Website"
-                          target="_blank"
-                          class="button button-flex button-small portfolio-button"
-                          >Project Link
-                          <i class="fa-solid fa-arrow-right button-icon"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-angles">
-                    <div class="swiper-button-next">
-                      <i class="fa-solid fa-angle-right swiper-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                      <i class="fa-solid fa-angle-left swiper-icon"></i>
-                    </div>
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <!-- service 3  -->
-          <div class="services-content">
-            <div>
-              <i class="fa-solid fa-hashtag services-icon"></i>
-              <h3 class="services-title">
-                Content<br />
-                Creation
-              </h3>
-            </div>
-            <span
-              class="button button-flex button-small button-link services-button"
-            >
-              View more
-              <i class="fa-solid fa-arrow-right button-icon"></i>
-            </span>
-
-            <div class="services-box">
-              <div class="services-box-content">
-                <h4 class="services-box-title">
-                  Content <br />
-                  Creation
-                </h4>
-                <i class="fa-solid fa-xmark services-box-close"></i>
-                <ul class="services-box-services grid">
-                  <div class="swiper-wrapper">
-                    <!-- project1 -->
-                    <div class="portfolio-content grid swiper-slide">
-                      <img
-                        src="Assets/project1.svg"
-                        alt=""
-                        class="portfolio-img"
-                      />
-                      <div class="portfolio-data">
-                        <h3 class="portfolio-title">1.Business Websites</h3>
-                        <p class="portfolio-description">
-                          Dynamic business sites that reflect your brand and
-                          engage customers effectively.
-                        </p>
-                        <a
-                          href="https://github.com/harisahmad59/CodeHype-Responsive-Website"
-                          target="_blank"
-                          class="button button-flex button-small portfolio-button"
-                          >Project Link
-                          <i class="fa-solid fa-arrow-right button-icon"></i
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="swiper-angles">
-                    <div class="swiper-button-next">
-                      <i class="fa-solid fa-angle-right swiper-icon"></i>
-                    </div>
-                    <div class="swiper-button-prev">
-                      <i class="fa-solid fa-angle-left swiper-icon"></i>
-                    </div>
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- contact me  -->
-      <section class="contact section" id="contact">
-        <h2 class="section-title">Contact me</h2>
-        <span class="section-subtitle">Get in touch</span>
-
-        <div class="contact-container container grid">
-          <div>
-            <div class="contact-info">
-              <i class="fa-regular fa-envelope contact-icon"></i>
-              <div>
-                <h3 class="contact-title">Email</h3>
-                <a
-                  href="mailto:business.codehype@gmail.com"
-                  target="_blank"
-                  class="contact-subtitle"
-                  >business.codehype@gmail.com</a
-                >
-              </div>
-            </div>
-            <div class="contact-info">
-              <i class="fa-brands fa-linkedin-in contact-icon"></i>
-              <div>
-                <h3 class="contact-title">Linkedin</h3>
-                <a
-                  class="contact-subtitle"
-                  href="https://www.linkedin.com/in/harisahmad59/"
-                  target="_blank"
-                  >@harisahmad59</a
-                >
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Footer Start -->
-      <div class="footer wow fadeIn" data-wow-delay="0.3s">
-        <div class="container-fluid">
-          <div class="container">
-            <div class="footer-info">
-              <h2>Kate Winslet</h2>
-              <h3>123 Street, New York, USA</h3>
-              <div class="footer-menu">
-                <p>+012 345 67890</p>
-                <p>info@example.com</p>
-              </div>
-              <!-- Icon Social Media -->
-              <div class="footer-social">
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="container copyright">
-            <p>
-              &copy; <a href="#">Your Site Name</a>, All Right Reserved |
-              Designed By <a href="https://htmlcodex.com">HTML Codex</a>
+          <div class="home-data">
+            <h1 class="home-title">Hallo, ich bin Irfan Taufiqurrahman</h1>
+            <h3 class="home-subtitle"></h3>
+            <p class="home-description">
+              Durch den Einsatz neuer Technologien wird eine kontinuierliche Steigerung der Effizienz und Effektivität
+              angestrebt.
             </p>
           </div>
         </div>
       </div>
-      <!-- Footer End -->
-    </main>
+    </section>
 
-    <a href="#home" class="scrollup" id="scroll-up">
-      <i class="fa-solid fa-arrow-up scroll-up-icon"></i>
-    </a>
-    <script src="Libraries/swiper-bundle.min.js"></script>
-    <script
-      src="https://kit.fontawesome.com/9b634c15bd.js"
-      crossorigin="anonymous"
-    ></script>
-    <script src="script.js"></script>
-  </body>
+    <!-- about -->
+    <section class="about section" id="about">
+      <h2 class="section-title">Über mich</h2>
+      <span class="section-subtitle"></span>
+
+      <div class="about-container container grid">
+        <img src="Assets/Icons/aboutimg.png" alt="" class="about-img" />
+
+        <div class="about-data">
+          <p class="about-description">
+            Als IT-Enthusiast besitze ich eine hohe Affinität zur Entwicklung von Webanwendungen mit PHP und zur
+            Integration von Hardware und Software mittels Python. Ich arbeite gerne in Teams und bringe meine Kenntnisse
+            in die gemeinsame Entwicklung von IT-Lösungen ein.
+          </p>
+
+          <div class="about-buttons">
+            <a download="" href="/Assets/Lebenslauf-Irfan_Taufiqurrahman.pdf" class="button button-flex">
+              Download Resume<i class="fa-solid fa-file-arrow-down button-icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills -->
+    <!-- <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      <span class="section-subtitle">My Technical Skills</span>
+      <div class="skills-content container">
+        <div class="skills-name">JavaScript</div>
+        <div class="skills-name">React JS</div>
+        <div class="skills-name">Tailwind CSS</div>
+        <div class="skills-name">Bootstrap</div>
+        <div class="skills-name">CSS</div>
+        <div class="skills-name">SASS</div>
+        <div class="skills-name">Figma</div>
+        <div class="skills-name">Node JS</div>
+        <div class="skills-name">Express JS</div>
+        <div class="skills-name">MongoDB</div>
+        <div class="skills-name">Photoshop</div>
+        <div class="skills-name">Python</div>
+      </div>
+    </section> -->
+
+    <!-- qualification -->
+    <section class="qualification section">
+      <h2 class="section-title">Mein Weg</h2>
+      <span class="section-subtitle"></span>
+
+      <div class="qualification-container container">
+        <div class="qualification-tabs">
+          <div class="qualification-button button-flex qualification-active" data-target="#education">
+            <i class="fa-solid fa-graduation-cap qualification-icon"></i>
+            Bildung
+          </div>
+          <div class="qualification-button button-flex" data-target="#praktika">
+            <i class="fa-solid fa-table qualification-icon"></i>
+            Praktika
+          </div>
+        </div>
+
+        <div class="qualification-section">
+          <div class="qualification-content qualification-active" data-content id="education">
+            <!-- qualifi 1 -->
+            <div class="qualification-data">
+              <div></div>
+
+              <div>
+                <span class="qualification-round"></span>
+                <span class="qualification-line"></span>
+              </div>
+
+              <div>
+                <h3 class="qualification-title">
+                  Azubi als Fachkraft für Lebensmitteltechnik
+                </h3>
+                <span class="qualification-subtitle">Rügenwalder Spezialitäten Plüntsch GmbH & Co. KG, Staßfurt</span>
+                <div class="qualification-date">
+                  <i class="fa-solid fa-calendar-days"></i>
+                  Sept 2024 - Heute
+                </div>
+              </div>
+            </div>
+
+            <!-- qualifi 2 -->
+            <div class="qualification-data">
+              <div>
+                <h3 class="qualification-title">
+                  Technische Informatik
+                </h3>
+                <span class="qualification-subtitle">Politeknik Elektronika Negeri Surabaya, Indonesien -
+                  Fachhochschule</span>
+                <div class="qualification-date">
+                  <i class="fa-solid fa-calendar-days"></i>
+                  Sept 2020 - Juli 2023
+                </div>
+              </div>
+              <div>
+                <span class="qualification-round"></span>
+                <span class="qualification-line"></span>
+              </div>
+            </div>
+
+            <!-- qualifi 3 -->
+
+            <div class="qualification-data">
+              <div></div>
+
+              <div>
+                <span class="qualification-round"></span>
+                <span class="qualification-line"></span>
+              </div>
+
+              <div>
+                <h3 class="qualification-title">
+                  Mathematik und Naturwissenschaft
+                </h3>
+                <span class="qualification-subtitle">SMAN 1 Manyar, Indonesien - Oberschule</span>
+                <div class="qualification-date">
+                  <i class="fa-solid fa-calendar-days"></i>
+                  Juli 2017 - Mai 2020
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- qualific content 2  -->
+          <div class="qualification-content" data-content id="work">
+
+          </div>
+          <!-- qualific content 3  -->
+          <div class="qualification-content" data-content id="praktika">
+            <!-- qualifi 1 -->
+            <div class="qualification-data">
+              <div>
+                <h3 class="qualification-title">Backend Entwickler</h3>
+                <span class="qualification-subtitle">Peduly Gotong Royong Foundation</span>
+                <div class="qualification-date">
+                  <i class="fa-solid fa-calendar-days"></i>
+                  Feb 2024 - Mai 2024
+                </div>
+              </div>
+              <div>
+                <span class="qualification-round"></span>
+                <span class="qualification-line"></span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- project's -->
+    <section class="services section" id="projects">
+      <h2 class="section-title">Projekte</h2>
+      <span class="section-subtitle">Meine Letzte Projekte</span>
+
+      <div class="services-container container grid">
+        <!-- service 1 -->
+        <div class="services-content">
+          <div class="service-img-container">
+            <img src="Assets/projekt/yogibusana/YogiBusana.png" alt="" class="service-img">
+            <h3 class="services-title">
+              Yogi <br />
+              Busana
+            </h3>
+          </div>
+          <span class="button button-flex button-small button-link services-button">
+            Weiter
+            <i class="fa-solid fa-arrow-right button-icon"></i>
+          </span>
+
+          <div class="services-box">
+            <div class="services-box-content">
+              <h4 class="services-box-title">
+                Yogi Busana
+              </h4>
+              <i class="fa-solid fa-xmark services-box-close"></i>
+              <ul class="services-box-services grid">
+                <div class="swiper-wrapper">
+                  <!-- project1 -->
+                  <div class="portfolio-content grid swiper-slide">
+                    <img src="Assets/projekt/yogibusana/YogiBusana.png" alt="" class="portfolio-img" />
+                    <div class="portfolio-data">
+                      <h3 class="portfolio-title">Company Profile</h3>
+                      <p class="portfolio-description">
+                        Ein Firmenprofil von Yogi Busana. Ein Unternehmen, das sich mit der Vermietung traditioneller
+                        Kleidung von Bali serviert. Entwicklet bei Html und Bootstrap
+                      </p>
+                      <a href="https://yogibusana.com/" target="_blank"
+                        class="button button-flex button-small portfolio-button">Project Link
+                        <i class="fa-solid fa-arrow-right button-icon"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-angles">
+                  <div class="swiper-button-next">
+                    <i class="fa-solid fa-angle-right swiper-icon"></i>
+                  </div>
+                  <div class="swiper-button-prev">
+                    <i class="fa-solid fa-angle-left swiper-icon"></i>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- service 2  -->
+        <div class="services-content">
+          <div>
+            <img src="Assets/projekt/Kardiograf/home.png" alt="">
+            <h3 class="services-title">
+              Kardiograf
+            </h3>
+          </div>
+          <span class="button button-flex button-small button-link services-button">
+            Weiter
+            <i class="fa-solid fa-arrow-right button-icon"></i>
+          </span>
+
+          <div class="services-box">
+            <div class="services-box-content">
+              <h4 class="services-box-title">
+                Kardiograf
+              </h4>
+              <i class="fa-solid fa-xmark services-box-close"></i>
+
+              <ul class="services-box-services grid">
+                <div class="swiper-wrapper">
+                  <!-- project1 -->
+                  <div class="portfolio-content grid swiper-slide">
+                    <img src="Assets/projekt/Kardiograf/recorded.png" alt="" class="portfolio-img" />
+                    <div class="portfolio-data">
+                      <h3 class="portfolio-title">Herzfrequenzrechner basiert Website</h3>
+                      <p class="portfolio-description">
+                        Website zur Berechnung der 6 Herzfrequenz auf indonesisch nämlich Lead1, Lead2, Lead3, LeadAVR,
+                        LeadAVL, Lead AVF and BPM (Beats Per Minute). Entwicklet bei Django Python für
+                        Backend, MQTT verbindet mit der Hardware and Bootstrap für Frontend.
+                      </p>
+                      <a href="https://github.com/Irfan-Taufiqurrahman/Kardiograf" target="_blank"
+                        class="button button-flex button-small portfolio-button">Project Link
+                        <i class="fa-solid fa-arrow-right button-icon"></i></a>
+                    </div>
+                  </div>
+                  <!-- project2 -->
+                  <div class="portfolio-content grid swiper-slide">
+                    <img src="Assets/projekt/Kardiograf/start.png" alt="" class="portfolio-img" />
+                    <div class="portfolio-data">
+                      <img src="Assets/projekt/Kardiograf/step-by-step.png" alt="" class="portfolio-img">
+                    </div>
+                  </div>
+                  <!-- project 3 -->
+                  <div class="portfolio-content grid swiper-slide">
+                    <img src="Assets/projekt/Kardiograf/Login.png" alt="" class="portfolio-img" />
+                    <div class="portfolio-data">
+                      <img src="Assets/projekt/Kardiograf/register.png" alt="" class="portfolio-img">
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-angles">
+                  <div class="swiper-button-next">
+                    <i class="fa-solid fa-angle-right swiper-icon"></i>
+                  </div>
+                  <div class="swiper-button-prev">
+                    <i class="fa-solid fa-angle-left swiper-icon"></i>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- service 3  -->
+        <div class="services-content">
+          <div>
+            <img src="Assets/projekt/Sipenting/grafik.png" alt="">
+            <h3 class="services-title">
+              Sipenting
+            </h3>
+          </div>
+          <span class="button button-flex button-small button-link services-button">
+            Weiter
+            <i class="fa-solid fa-arrow-right button-icon"></i>
+          </span>
+
+          <div class="services-box">
+            <div class="services-box-content">
+              <h4 class="services-box-title">
+                Sistem Informasi Pengukuran Stunting
+              </h4>
+              <i class="fa-solid fa-xmark services-box-close"></i>
+              <ul class="services-box-services grid">
+                <div class="swiper-wrapper">
+                  <!-- project1 -->
+                  <div class="portfolio-content grid swiper-slide">
+                    <img src="Assets/projekt/Sipenting/login.png" alt="" class="portfolio-img" />
+                    <div class="portfolio-data">
+                      <h3 class="portfolio-title">Wachstumsverzörgerung Berechnungssystem</h3>
+                      <p class="portfolio-description">
+                        Automatische Berechnung der Prävalenz von Wachstumsstörungen in verschiedenen Altersgruppen und
+                        Regionen basierend auf Größe, Gewicht, Alter. Entwicklet bei Laravel PHP, MQTT für Backend und
+                        Bootstrap für Frontend.
+                      </p>
+                      <a href="https://github.com/h4fizm/perhitungan-zscore.git" target="_blank"
+                        class="button button-flex button-small portfolio-button">Project Link
+                        <i class="fa-solid fa-arrow-right button-icon"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-angles">
+                  <div class="swiper-button-next">
+                    <i class="fa-solid fa-angle-right swiper-icon"></i>
+                  </div>
+                  <div class="swiper-button-prev">
+                    <i class="fa-solid fa-angle-left swiper-icon"></i>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- service 3  -->
+        <div class="services-content">
+          <div>
+            <img src="Assets/projekt/Peduly/Home.png" alt="">
+            <h3 class="services-title">
+              Peduly
+            </h3>
+          </div>
+          <span class="button button-flex button-small button-link services-button">
+            Weiter
+            <i class="fa-solid fa-arrow-right button-icon"></i>
+          </span>
+
+          <div class="services-box">
+            <div class="services-box-content">
+              <h4 class="services-box-title">
+                Peduly
+              </h4>
+              <i class="fa-solid fa-xmark services-box-close"></i>
+              <ul class="services-box-services grid">
+                <div class="swiper-wrapper">
+                  <!-- project1 -->
+                  <div class="portfolio-content grid swiper-slide">
+                    <img src="Assets/projekt/Peduly/detailpage.png" alt="" class="portfolio-img" />
+                    <div class="portfolio-data">
+                      <h3 class="portfolio-title">Freiwiliger Registierung</h3>
+                      <p class="portfolio-description">
+                        Startup Crowdfunding Fundraising und Spenden sind offiziell beim Ministerium für Recht und
+                        Menschenrechte registriert. Diese Website Entwicklet mit Laravel für Backend und React für
+                        Frontend
+                      </p>
+                      <a href="https://peduly.com/" target="_blank"
+                        class="button button-flex button-small portfolio-button">Project Link
+                        <i class="fa-solid fa-arrow-right button-icon"></i></a>
+                    </div>
+                  </div>
+                  <!-- project 2 -->
+                  <div class="portfolio-content grid swiper-slide">
+                    <img src="Assets/projekt/Peduly/payment.png" alt="" class="portfolio-img" />
+                      <div class="portfolio-data">
+                        <img src="Assets/projekt/Peduly/payment1.png" alt="" class="portfolio-img">
+                      </div>
+                  </div>
+                </div>
+                <div class="swiper-angles">
+                  <div class="swiper-button-next">
+                    <i class="fa-solid fa-angle-right swiper-icon"></i>
+                  </div>
+                  <div class="swiper-button-prev">
+                    <i class="fa-solid fa-angle-left swiper-icon"></i>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact me  -->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Kontakt</h2>
+      <span class="section-subtitle"></span>
+
+      <div class="contact-container container grid">
+        <div>
+          <div class="contact-info">
+            <i class="fa-regular fa-envelope contact-icon"></i>
+            <div>
+              <h3 class="contact-title">Email</h3>
+              <a href="mailto:irfan.rachman72@gmail.com" target="_blank"
+                class="contact-subtitle">irfan.rachman72@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-info">
+            <i class="fa-brands fa-linkedin-in contact-icon"></i>
+            <div>
+              <h3 class="contact-title">Linkedin</h3>
+              <a class="contact-subtitle" href="https://www.linkedin.com/in/irfan-taufiqurrahman/"
+                target="_blank">@irfan-taufiqurrahman</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <a href="#home" class="scrollup" id="scroll-up">
+    <i class="fa-solid fa-arrow-up scroll-up-icon"></i>
+  </a>
+  <script src="Libraries/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/9b634c15bd.js" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
 </html>
